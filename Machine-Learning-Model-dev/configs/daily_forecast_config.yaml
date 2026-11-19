@@ -1,0 +1,37 @@
+# RegQuest ML - Daily Demand Forecasting Configuration
+model:
+  algorithm: "RandomForestRegressor"
+  n_estimators: 50
+  max_depth: 4
+  min_samples_split: 5
+  min_samples_leaf: 2
+  random_state: 42
+  model_version: "daily-forecaster-random_forest-v1"
+
+features:
+  lags: [1, 2, 3, 5, 10]
+  rolling_windows: [5, 10]
+  rolling_metrics: ["mean", "std", "min", "max"]
+  calendar_attributes:
+    - "day_of_week"
+    - "month"
+    - "day_of_month"
+    - "is_operating_day"
+    - "is_weekend"
+    - "is_peak_academic_season"
+    - "is_slow_academic_season"
+    - "is_month_start"
+    - "is_month_end"
+
+academic_calendar:
+  peak_months: [1, 6, 8, 9]     # Jan (2nd sem start), Jun (Graduation), Aug-Sep (1st sem / board exams)
+  slow_months: [3, 12]          # Mar (break / finalization), Dec (holiday recess)
+
+validation:
+  cv_splits: 4
+  test_size_days: 25
+  evaluation_horizon: 100       # 100 test operating days
+
+prediction_intervals:
+  confidence_level: 0.90
+  z_score: 1.645

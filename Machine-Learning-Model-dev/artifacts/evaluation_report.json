@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-11-05T12:56:37.263013",
+  "n_splits": 4,
+  "test_horizon_days": 25,
+  "champion_model": "random_forest",
+  "scoreboard": {
+    "historical_mean": {
+      "mae_mean": 25.49,
+      "medae_mean": 20.29,
+      "rmse_mean": 33.91,
+      "wape_mean": 68.08
+    },
+    "previous_day": {
+      "mae_mean": 25.94,
+      "medae_mean": 21.5,
+      "rmse_mean": 34.5,
+      "wape_mean": 66.34
+    },
+    "rolling_5d_mean": {
+      "mae_mean": 22.93,
+      "medae_mean": 18.15,
+      "rmse_mean": 29.81,
+      "wape_mean": 55.4
+    },
+    "linear_regression": {
+      "mae_mean": 23.79,
+      "medae_mean": 20.54,
+      "rmse_mean": 30.35,
+      "wape_mean": 64.43
+    },
+    "decision_tree": {
+      "mae_mean": 19.11,
+      "medae_mean": 14.67,
+      "rmse_mean": 26.98,
+      "wape_mean": 47.92
+    },
+    "random_forest": {
+      "mae_mean": 18.97,
+      "medae_mean": 12.74,
+      "rmse_mean": 27.1,
+      "wape_mean": 47.73
+    }
+  },
+  "split_details": []
+}

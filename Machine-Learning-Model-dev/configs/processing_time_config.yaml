@@ -1,0 +1,22 @@
+# RegQuest ML - Document Processing Time Turnaround Configuration
+service_standard_sla_days:
+  TOR: 5.0
+  HD: 3.0
+  CAV: 5.0
+  COE: 2.0
+  CAR: 3.0
+  EVAL: 5.0
+  DIPLOMA: 10.0
+  OTHER_CERT: 3.0
+  DEFAULT: 3.0
+
+multi_document_increment_days: 0.5
+
+operating_rules:
+  operating_days_only: true
+  exclude_weekends: true
+  exclude_holidays: true
+
+retraining_trigger:
+  min_audit_log_records: 500
+  empirical_status_source: "AuditLog.REQUEST_STATUS_CHANGED_READY_FOR_RELEASE"

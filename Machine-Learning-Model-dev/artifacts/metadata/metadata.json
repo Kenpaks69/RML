@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-05T12:55:52.397482",
+  "total_operating_days": 245,
+  "recent_history_buffer": [
+    30.0,
+    2.0,
+    80.0,
+    50.0,
+    29.0,
+    9.0,
+    29.0,
+    14.0,
+    14.0,
+    67.0,
+    21.0,
+    26.0,
+    1.0,
+    44.0,
+    5.0
+  ],
+  "champion_model": {
+    "name": "RandomForestRegressor",
+    "model_type": "random_forest",
+    "n_estimators": 50,
+    "max_depth": 4,
+    "version": "daily-forecaster-random_forest-v1",
+    "residual_std": 18.54
+  },
+  "daily_forecaster": {
+    "version": "daily-forecaster-random_forest-v1",
+    "feature_count": 19
+  },
+  "processing_time_baseline": {
+    "version": "processing-baseline-v1"
+  },
+  "monthly_workload_thresholds": {
+    "light_max": 500,
+    "moderate_max": 850,
+    "heavy_max": 1150
+  }
+}

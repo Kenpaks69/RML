@@ -1,0 +1,16 @@
+# RegQuest ML - Monthly Workload Forecasting Configuration
+aggregation:
+  method: "daily_rollout_summation"
+  standard_monthly_operating_days: 21
+
+classification_thresholds:
+  light_max: 300
+  moderate_max: 650
+  heavy_max: 900
+  # very_heavy: > 900
+
+tier_descriptions:
+  light: "Low transaction volume; standard registrar staffing is sufficient."
+  moderate: "Normal academic operational load; standard queue distribution."
+  heavy: "High transaction volume; recommend expedited processing shifts."
+  very_heavy: "Peak volume (enrollment / graduation); recommend temporary counter expansion."

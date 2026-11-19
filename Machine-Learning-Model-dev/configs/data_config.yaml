@@ -1,0 +1,38 @@
+# RegQuest ML - Data Ingestion & Pipeline Configuration
+data_paths:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  external_dir: "data/external"
+  reports_dir: "reports/data_quality"
+
+input_schema:
+  expected_columns:
+    - "Date Requested"
+    - "Tracking Number"
+    - "Student ID"
+    - "Name"
+    - "Degree / Program"
+    - "Credential Requested"
+    - "Purpose"
+    - "Status"
+    - "Scheduled Release"
+    - "Processing Time "
+
+cleaning:
+  month_clamping: true
+  min_valid_year: 2024
+  max_valid_year: 2026
+  canonical_credentials:
+    - "TOR"
+    - "HD"
+    - "CAV"
+    - "COE"
+    - "CAR"
+    - "EVAL"
+    - "DIPLOMA"
+    - "OTHER_CERT"
+
+operating_calendar:
+  standard_working_days: [0, 1, 2, 3, 4]  # Monday to Friday
+  weekend_days: [5, 6]                    # Saturday, Sunday

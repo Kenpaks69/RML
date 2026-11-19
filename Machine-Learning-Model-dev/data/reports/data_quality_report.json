@@ -1,0 +1,276 @@
+{
+  "generation_timestamp": "2026-11-05T00:52:57.065755",
+  "total_source_files": 12,
+  "total_raw_rows": 9265,
+  "total_cleaned_records": 9265,
+  "total_rejected_records": 0,
+  "total_exact_duplicates": 277,
+  "date_corrections_applied": 228,
+  "date_coverage": {
+    "earliest_date_requested": "2024-12-16",
+    "latest_date_requested": "2025-12-18",
+    "distinct_request_dates": 245
+  },
+  "file_breakdown": {
+    "April Data.csv": {
+      "raw": 426,
+      "valid": 426,
+      "rejected": 0
+    },
+    "August Data.csv": {
+      "raw": 1513,
+      "valid": 1513,
+      "rejected": 0
+    },
+    "December Data.csv": {
+      "raw": 476,
+      "valid": 476,
+      "rejected": 0
+    },
+    "February Data.csv": {
+      "raw": 640,
+      "valid": 640,
+      "rejected": 0
+    },
+    "January Data.csv": {
+      "raw": 1060,
+      "valid": 1060,
+      "rejected": 0
+    },
+    "July Data.csv": {
+      "raw": 875,
+      "valid": 875,
+      "rejected": 0
+    },
+    "June Data.csv": {
+      "raw": 1147,
+      "valid": 1147,
+      "rejected": 0
+    },
+    "March Data.csv": {
+      "raw": 148,
+      "valid": 148,
+      "rejected": 0
+    },
+    "May Data.csv": {
+      "raw": 785,
+      "valid": 785,
+      "rejected": 0
+    },
+    "November Data.csv": {
+      "raw": 524,
+      "valid": 524,
+      "rejected": 0
+    },
+    "October Data.csv": {
+      "raw": 591,
+      "valid": 591,
+      "rejected": 0
+    },
+    "September Data.csv": {
+      "raw": 1080,
+      "valid": 1080,
+      "rejected": 0
+    }
+  },
+  "primary_credential_distribution": {
+    "TOR": 5579,
+    "GRADES_CERT": 1075,
+    "HD": 983,
+    "COE": 465,
+    "CAV": 257,
+    "GPA_CERT": 160,
+    "HONOR_CERT": 159,
+    "CAR": 154,
+    "GRAD_CERT": 86,
+    "DIPLOMA": 73,
+    "ENGLISH_CERT": 64,
+    "UNITS_CERT": 53,
+    "NSTP_CERT": 21,
+    "F137": 17,
+    "CONVERSION_CERT": 17,
+    "EVAL": 15,
+    "ENROLLED_SUBJ_CERT": 12,
+    "NO_OBJECTION_CERT": 11,
+    "CERTIFICATION": 8,
+    "VERIFICATION": 8
+  },
+  "purpose_category_distribution": {
+    "Evaluation": 2675,
+    "Employment": 2233,
+    "Scholarship": 1635,
+    "Board Exam": 1047,
+    "TOR-Granted": 775,
+    "Other": 298,
+    "Advanced Studies": 156,
+    "Ranking": 137,
+    "Personal File": 102,
+    "Transfer": 55,
+    "Unspecified": 50,
+    "Visa / Travel": 48,
+    "Civil Service": 37,
+    "Promotion": 17
+  },
+  "corrections_sample": [
+    {
+      "file": "April Data.csv",
+      "row": 397,
+      "field": "Date Requested",
+      "raw_value": "4/24/2925",
+      "corrected_value": "2025-04-24",
+      "reason": "Malformed year 2025 -> 2025-04-24"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 283,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 284,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 285,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 286,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 290,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "December Data.csv",
+      "row": 291,
+      "field": "Date Requested",
+      "raw_value": "12/10/2015",
+      "corrected_value": "2025-12-10",
+      "reason": "Typo year 2015 in Dec 2025 batch -> 2025-12-10"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 90,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 133,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 134,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 135,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 136,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 137,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 138,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 139,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 140,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 141,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 142,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 143,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    },
+    {
+      "file": "February Data.csv",
+      "row": 144,
+      "field": "Date Requested",
+      "raw_value": "1/31/0205",
+      "corrected_value": "2025-01-31",
+      "reason": "Malformed year 2025 -> 2025-01-31"
+    }
+  ]
+}
